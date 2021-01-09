@@ -12,27 +12,22 @@ export default {
   props: {
     shape: String,
     color: String,
+    size: String,
   },
   computed: {
     className() {
-      return `shape ${this.shape || 'undefined-shape'} ${this.color}`;
+      return `shape ${this.shape || 'undefined-shape'} ${this.color} ${this.size || ''}`;
     },
     ariaLabel() {
       const colors = { color1: 'purple', color2: 'blue', color3: 'pink' };
       const color = colors[this.color];
-      if (this.shape && color) {
-        return `${color} ${this.shape}`;
+      const words = [this.size, color, this.shape || 'shape'].filter(x => x);
+
+      if (words.length > 1) {
+        return words.join(' ');
       }
 
-      if (this.shape) {
-        return this.shape;
-      }
-
-      if (color) {
-        return `${color} shape`;
-      }
-
-      return 'any shape';
+      return 'any shape of any color';
     },
   },
 };
@@ -60,6 +55,21 @@ svg {
     svg * {
       stroke-width: calc(var(--shape-border-size) * var(--svg-ratio) / var(--small-shape-ratio));
     }
+  }
+
+  &.smaller {
+    width: calc(var(--shape-size) * 0.6);
+    height: calc(var(--shape-size) * 0.6);
+  }
+
+  &.small {
+    width: calc(var(--shape-size) * 0.8);
+    height: calc(var(--shape-size) * 0.8);
+  }
+
+  &.big {
+    width: calc(var(--shape-size) * 1.2);
+    height: calc(var(--shape-size) * 1.2);
   }
 
   svg {
