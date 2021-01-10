@@ -1401,7 +1401,8 @@
     </main>
 
     <footer>
-      Created by <a href="https://angelika.me">Angelika Tyborska</a>
+      <p><a href="https://github.com/angelikatyborska/elixir-enum-cheatsheet/issues">Report a problem</a>.</p>
+      <p>Created by <a href="https://angelika.me">Angelika Tyborska</a>.</p>
     </footer>
   </div>
 </template>
