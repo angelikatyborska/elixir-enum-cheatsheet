@@ -4,7 +4,6 @@
       <h1>Elixir Enum Cheatsheet</h1>
       <div class="grid">
 
-
         <div class="input">
           <code class="token punctuation">[</code>
           <div class="list">
@@ -1438,6 +1437,18 @@
       </div>
     </main>
 
+    <aside>
+      <h2 id="legend">Symbol reference</h2>
+      <ul class="legend">
+        <li><shape></shape> means any shape of any color</li>
+        <li><shape shape="square"></shape> means a square of any color</li>
+        <li><shape shape="circle"></shape> means a circle of any color</li>
+        <li><shape color="color1"></shape> means any purple shape or the color purple</li>
+        <li><shape color="color2"></shape> means any blue shape or the color blue</li>
+        <li><shape color="color3"></shape> means any pink shape or the color pink</li>
+      </ul>
+    </aside>
+
     <footer>
       <p><a href="https://github.com/angelikatyborska/elixir-enum-cheatsheet/issues">Report a problem</a>.</p>
       <p>Created by <a href="https://angelika.me">Angelika Tyborska</a>.</p>
@@ -1546,16 +1557,23 @@ h1 {
   font-weight: normal;
 }
 
-main, footer {
+main, aside, footer {
   max-width: 1240px;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
 }
 
+footer, aside {
+  margin: 1rem auto;
+}
+
+aside {
+  font-size: 0.8rem;
+}
+
 footer {
   text-align: center;
-  margin: 1rem auto;
   font-size: 0.6rem;
 }
 
@@ -1713,4 +1731,28 @@ code {
 .arrow {
   color: $punctuation-color;
 }
+
+.legend {
+  list-style: none;
+  display: grid;
+  justify-content: start;
+  margin: 0 0 $margin-big 0;
+  padding: 0;
+  grid-template-columns: auto;
+  grid-column-gap: $margin-medium;
+  grid-row-gap: $margin-small;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-flow: column;
+
+  @media screen and (min-width: $breakpoint1) {
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 0 $margin-huge 0;
+  }
+
+  .shape {
+    vertical-align: middle;
+  }
+}
+
 </style>
