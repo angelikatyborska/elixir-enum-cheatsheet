@@ -20,10 +20,17 @@ export default {
     ariaLabel() {
       const colors = { color1: 'purple', color2: 'blue', color3: 'pink' };
       const color = colors[this.color];
-      const words = [this.size, color, this.shape || 'shape'].filter(x => x);
 
-      if (words.length > 1) {
-        return words.join(' ');
+      if (this.shape && color) {
+        return [this.size, color, this.shape || 'shape'].filter(x => x).join(' ');
+      }
+
+      if (this.shape) {
+        return [this.size, this.shape || 'shape', 'of any color'].filter(x => x).join(' ');
+      }
+
+      if (this.color) {
+        return `any ${color} shape`;
       }
 
       return 'any shape of any color';
@@ -74,18 +81,18 @@ $stripe-width: 2px;
 $stripe-opacity: 0.65;
 
 .color1 {
-    background-color: var(--shape-color1);
-    background: repeating-linear-gradient(
-        to right,
-        rgba(255, 255, 255, 0),
-        rgba(255, 255, 255, 0) $stripe-width * 0.5,
-        rgba(255, 255, 255, $stripe-opacity) $stripe-width * 0.5,
-        rgba(255, 255, 255, $stripe-opacity) $stripe-width * 1.5,
-        rgba(255, 255, 255, 0) $stripe-width * 1.5,
-        rgba(255, 255, 255, 0) $stripe-width * 2
+  background-color: var(--shape-color1);
+  background: repeating-linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0) $stripe-width * 0.5,
+      rgba(255, 255, 255, $stripe-opacity) $stripe-width * 0.5,
+      rgba(255, 255, 255, $stripe-opacity) $stripe-width * 1.5,
+      rgba(255, 255, 255, 0) $stripe-width * 1.5,
+      rgba(255, 255, 255, 0) $stripe-width * 2
 
-    ),
-    linear-gradient(to right, var(--shape-color1) 0%, var(--shape-color1) 100%);
+  ),
+  linear-gradient(to right, var(--shape-color1) 0%, var(--shape-color1) 100%);
 }
 
 .color2 {
@@ -93,17 +100,17 @@ $stripe-opacity: 0.65;
 }
 
 .color3 {
-    background-color: var(--shape-color3);
-    background: repeating-linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0),
-        rgba(255, 255, 255, 0) $stripe-width * 0.5,
-        rgba(255, 255, 255, $stripe-opacity) $stripe-width * 0.5,
-        rgba(255, 255, 255, $stripe-opacity) $stripe-width * 1.5,
-        rgba(255, 255, 255, 0) $stripe-width * 1.5,
-        rgba(255, 255, 255, 0) $stripe-width * 2
-    ),
-    linear-gradient(to right, var(--shape-color3) 0%, var(--shape-color3) 100%);
+  background-color: var(--shape-color3);
+  background: repeating-linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0) $stripe-width * 0.5,
+      rgba(255, 255, 255, $stripe-opacity) $stripe-width * 0.5,
+      rgba(255, 255, 255, $stripe-opacity) $stripe-width * 1.5,
+      rgba(255, 255, 255, 0) $stripe-width * 1.5,
+      rgba(255, 255, 255, 0) $stripe-width * 2
+  ),
+  linear-gradient(to right, var(--shape-color3) 0%, var(--shape-color3) 100%);
 }
 
 </style>
