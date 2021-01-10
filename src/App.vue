@@ -14,10 +14,10 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#filter/2">filter</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="filter/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#filter/2">filter</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
-          <code> -> </code>
+          <code class="token operator"> -> </code>
           <shape shape="square"></shape><code>?</code>
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
@@ -44,10 +44,10 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#reject/2">reject</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="reject/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#reject/2">reject</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
-          <code> -> </code>
+          <code class="token operator"> -> </code>
           <shape shape="square"></shape><code>?</code>
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
@@ -74,10 +74,10 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#map/2">map</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="map/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#map/2">map</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
-          <code> -> </code>
+          <code class="token operator"> -> </code>
           <shape color="color2"></shape>
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
@@ -106,10 +106,10 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#map_every/3">map_every</a></em><span class="token punctuation">(</span><span class="token number">2</span>, <span class="token keyword">fn </span></code>
+        <div id="map_every/3" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#map_every/3">map_every</a></em><span class="token punctuation">(</span><span class="token number">2</span>, <span class="token keyword">fn </span></code>
           <shape></shape>
-          <code> -> </code>
+          <code class="token operator"> -> </code>
           <shape color="color2"></shape>
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
@@ -138,10 +138,10 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#find/2">find</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="find/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#find/2">find</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
-          <code> -> </code>
+          <code class="token operator"> -> </code>
           <shape shape="circle"></shape><code>?</code>
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
@@ -163,10 +163,10 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#find_index/2">find_index</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="find_index/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#find_index/2">find_index</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
-          <code> -> </code>
+          <code class="token operator"> -> </code>
           <shape shape="circle"></shape><code>?</code>
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
@@ -188,8 +188,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#at/2">at</a></em><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span></code>
+        <div id="at/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#at/2">at</a></em><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" aria-label="returns" title="returns">
           <span>→</span>
@@ -209,8 +209,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#count/1">count</a></em>
+        <div id="count/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#count/1">count</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -232,10 +232,10 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#count/1">count</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="count/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#count/1">count</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
-          <code> -> </code>
+          <code class="token operator"> -> </code>
           <shape color="color1"></shape><code>?</code>
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
@@ -257,8 +257,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#sort/1">sort</a></em>
+        <div id="sort/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#sort/1">sort</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -287,8 +287,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#sort/2">sort</a></em><span class="token punctuation">(</span><span class="token atom">:desc</span><span class="token punctuation">)</span></code>
+        <div id="sort/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#sort/2">sort</a></em><span class="token punctuation">(</span><span class="token atom">:desc</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" aria-label="returns" title="returns">
           <span>→</span>
@@ -315,8 +315,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#max/1">max</a></em>
+        <div id="max/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#max/1">max</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -338,8 +338,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#min/1">min</a></em>
+        <div id="min/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#min/1">min</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -360,8 +360,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#member?/2">member?</a></em><span class="token punctuation">(</span></code>
+        <div id="member?/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#member?/2">member?</a></em><span class="token punctuation">(</span></code>
           <shape shape="square" color="color3"></shape>
           <code><span class="token punctuation">)</span></code>
         </div>
@@ -383,10 +383,10 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#all?/2">all?</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="all?/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#all?/2">all?</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
-          <code> -> </code>
+          <code class="token operator"> -> </code>
           <shape color="color3"></shape><code>?</code>
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
@@ -408,10 +408,10 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#any?/2">any?</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="any?/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#any?/2">any?</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
-          <code> -> </code>
+          <code class="token operator"> -> </code>
           <shape color="color3"></shape><code>?</code>
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
@@ -433,8 +433,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#take/2">take</a></em><span class="token punctuation">(</span>2<span class="token punctuation">)</span></code>
+        <div id="take/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#take/2">take</a></em><span class="token punctuation">(</span>2<span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" aria-label="returns" title="returns">
           <span>→</span>
@@ -459,8 +459,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#take_every/2">take_every</a></em><span class="token punctuation">(</span>2<span class="token punctuation">)</span></code>
+        <div id="take_every/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#take_every/2">take_every</a></em><span class="token punctuation">(</span>2<span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" aria-label="returns" title="returns">
           <span>→</span>
@@ -485,10 +485,10 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#take_while/2">take_while</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="take_while/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#take_while/2">take_while</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
-          <code> -> </code>
+          <code class="token operator"> -> </code>
           <shape shape="circle"></shape>
           <code>?<span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
@@ -516,8 +516,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#chunk_every/2">chunk_every</a></em>
+        <div id="chunk_every/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#chunk_every/2">chunk_every</a></em>
             <span class="token punctuation">(</span>3<span class="token punctuation">,</span> 3<span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" aria-label="returns" title="returns">
@@ -551,8 +551,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#chunk_every/2">chunk_every</a></em><span class="token punctuation">(</span>3<span class="token punctuation">,</span> 3<span class="token punctuation">,</span><span class="token atom"> :discard</span><span class="token punctuation">)</span></code>
+        <div id="chunk_every/3" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#chunk_every/3">chunk_every</a></em><span class="token punctuation">(</span>3<span class="token punctuation">,</span> 3<span class="token punctuation">,</span><span class="token atom"> :discard</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" aria-label="returns" title="returns">
           <span>→</span>
@@ -580,8 +580,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#chunk_every/2">chunk_every</a></em><span class="token punctuation">(</span>3<span class="token punctuation">,</span> 3<span class="token punctuation">, </span></code>
+        <div id="chunk_every/3-2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#chunk_every/3">chunk_every</a></em><span class="token punctuation">(</span>3<span class="token punctuation">,</span> 3<span class="token punctuation">, </span></code>
           <code class="token punctuation">[</code>
           <div class="list">
             <shape shape="circle" color="color2"></shape><code class="token punctuation">,</code>
@@ -624,8 +624,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#chunk_every/2">chunk_every</a></em>
+        <div id="chunk_every/2-2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#chunk_every/2">chunk_every</a></em>
             <span class="token punctuation">(</span>3, 2<span class="token punctuation">)</span>
           </code>
         </div>
@@ -661,8 +661,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#chunk_by/2">chunk_by</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="chunk_by/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#chunk_by/2">chunk_by</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
           <code> -> color<span class="token punctuation">(</span></code>
           <shape></shape>
@@ -703,8 +703,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#random/1">random</a></em>
+        <div id="random/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#random/1">random</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -728,8 +728,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#shuffle/1">shuffle</a></em>
+        <div id="shuffle/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#shuffle/1">shuffle</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -757,8 +757,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#reverse/1">reverse</a></em>
+        <div id="reverse/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#reverse/1">reverse</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -787,8 +787,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#uniq/1">uniq</a></em>
+        <div id="uniq/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#uniq/1">uniq</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -816,8 +816,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#uniq_by/2">uniq_by</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="uniq_by/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#uniq_by/2">uniq_by</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
           <code> -> color<span class="token punctuation">(</span></code>
           <shape></shape>
@@ -846,8 +846,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#dedup/1">dedup</a></em>
+        <div id="dedup/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#dedup/1">dedup</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -874,8 +874,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#intersperse/2">intersperse</a></em><span class="token punctuation">(</span></code>
+        <div id="intersperse/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#intersperse/2">intersperse</a></em><span class="token punctuation">(</span></code>
           <shape shape="circle" color="color2"></shape>
           <code><span class="token punctuation">)</span></code>
         </div>
@@ -911,8 +911,8 @@
           <code class="token punctuation">]</code>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#zip/1">zip</a></em>
+        <div id="zip/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#zip/1">zip</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -957,8 +957,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#unzip/1">unzip</a></em>
+        <div id="unzip/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#unzip/1">unzip</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -993,8 +993,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#group_by/2">group_by</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="group_by/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#group_by/2">group_by</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
           <code> -> color<span class="token punctuation">(</span></code>
           <shape></shape>
@@ -1008,7 +1008,7 @@
             <div class="line">
               <code class="token punctuation">%{</code>
               <shape color="color3"></shape>
-              <code> => </code><code class="token punctuation">[</code>
+              <code class="token operator"> => </code><code class="token punctuation">[</code>
               <div class="list">
                 <shape shape="square" color="color3"></shape><code class="token punctuation">,</code>
                 <shape shape="circle" color="color3"></shape><code class="token punctuation">,</code>
@@ -1019,7 +1019,7 @@
             <div class="line">
               <code class="indentation"></code>
               <shape color="color1"></shape>
-              <code> => </code><code class="token punctuation">[</code>
+              <code class="token operator"> => </code><code class="token punctuation">[</code>
               <div class="list">
                 <shape shape="square" color="color1"></shape>
               </div>
@@ -1039,8 +1039,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#frequencies/1">frequencies</a></em>
+        <div id="frequencies/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#frequencies/1">frequencies</a></em>
             <span class="token punctuation">()</span>
           </code>
         </div>
@@ -1052,17 +1052,17 @@
             <div class="line">
               <code class="token punctuation">%{</code>
               <shape color="color3" shape="square"></shape>
-              <code> => <span class="token number">2</span></code><code class="token punctuation">,</code>
+              <code><span class="token operator"> => </span><span class="token number">2</span></code><code class="token punctuation">,</code>
             </div>
             <div class="line">
               <code class="indentation"></code>
               <shape color="color1" shape="square"></shape>
-              <code> => <span class="token number">1</span></code><code class="token punctuation">,</code>
+              <code><span class="token operator"> => </span><span class="token number">1</span></code><code class="token punctuation">,</code>
             </div>
             <div class="line">
               <code class="indentation"></code>
               <shape color="color3" shape="circle"></shape>
-              <code> => <span class="token number">1</span></code><code class="token punctuation">}</code>
+              <code><span class="token operator"> => </span><span class="token number">1</span></code><code class="token punctuation">}</code>
             </div>
           </div>
         </div>
@@ -1078,8 +1078,8 @@
           </div>
           <code class="token punctuation">]</code>
         </div>
-        <div class="code">
-          <code>|> Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#frequencies_by/2">frequencies_by</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
+        <div id="frequencies_by/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#frequencies_by/2">frequencies_by</a></em><span class="token punctuation">(</span><span class="token keyword">fn </span></code>
           <shape></shape>
           <code> -> color<span class="token punctuation">(</span></code>
           <shape></shape>
@@ -1350,13 +1350,17 @@ code {
     color: $keyword-color;
   }
 
-  &.punctuation {
+  &.punctuation, &.operator {
     color: $punctuation-color;
   }
 
   &.number, &.atom {
     color: $number-color;
   }
+}
+
+.arrow {
+  color: $punctuation-color;
 }
 
 

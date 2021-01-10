@@ -1,5 +1,5 @@
 <template>
-  <span :class="className" :title="ariaLabel" :ariaLabel="ariaLabel">
+  <span :class="className" :title="ariaLabel" :aria-label="ariaLabel">
     <svg v-if="!shape" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
       <polygon points="22.246999740600586 1.1150000095367432 38.893001556396484 6.9070000648498535 35.9900016784668 38.89400100708008 11.031000137329102 38.90800094604492 1.1399999856948853 24.117000579833984 7.01200008392334 1.1260000467300415"/>
     </svg>
