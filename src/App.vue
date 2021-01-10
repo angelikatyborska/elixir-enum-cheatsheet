@@ -1176,7 +1176,7 @@
           <code><span class="token keyword">fn </span></code>
           <shape></shape>
           <code class="token operator"> -> </code>
-          <shape shape="circle"></shape>
+          <shape color="color3"></shape>
           <code><span class="token keyword"> end</span></code>
           <code><span class="token punctuation">)</span></code>
         </div>
@@ -1186,11 +1186,11 @@
         <div class="output">
           <code class="token punctuation">[</code>
           <div class="list">
-            <shape shape="circle" color="color1"></shape><code class="token punctuation">,</code>
+            <shape shape="square" color="color3"></shape><code class="token punctuation">,</code>
             <shape shape="circle" color="color2"></shape><code class="token punctuation">,</code>
-            <shape shape="circle" color="color1"></shape><code class="token punctuation">,</code>
+            <shape shape="square" color="color3"></shape><code class="token punctuation">,</code>
             <shape shape="circle" color="color2"></shape><code class="token punctuation">,</code>
-            <shape shape="circle" color="color1"></shape>
+            <shape shape="square" color="color3"></shape>
           </div>
           <code class="token punctuation">]</code>
         </div>
@@ -1674,6 +1674,4 @@ code {
 .arrow {
   color: $punctuation-color;
 }
-
-
 </style>
