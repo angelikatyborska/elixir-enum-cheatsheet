@@ -28,7 +28,7 @@
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -60,7 +60,7 @@
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -92,7 +92,7 @@
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -124,7 +124,7 @@
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -154,7 +154,7 @@
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -184,7 +184,7 @@
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <shape shape="circle" color="color2"></shape>
@@ -209,7 +209,7 @@
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code><span class="token number">1</span></code>
@@ -230,10 +230,46 @@
           <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#at/2">at</a></em><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <shape shape="circle" color="color2"></shape>
+        </div>
+
+
+        <div class="input">
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <shape shape="circle" color="color1"></shape><code class="token punctuation">,</code>
+            <shape shape="circle" color="color2"></shape><code class="token punctuation">,</code>
+            <shape shape="circle" color="color3"></shape>
+          </div>
+          <code class="token punctuation">]</code>
+        </div>
+        <div id="with_index/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#with_index/1">with_index</a></em><span class="token punctuation">()</span></code>
+        </div>
+        <div class="arrow" title="returns">
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
+        </div>
+        <div class="output">
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <code class="token punctuation">{</code>
+            <shape shape="circle" color="color1"></shape>
+            <code class="token punctuation">,</code>
+            <code class="token number">0</code>
+            <code class="token punctuation">},{</code>
+            <shape shape="circle" color="color2"></shape>
+            <code class="token punctuation">,</code>
+            <code class="token number">1</code>
+            <code class="token punctuation">},{</code>
+            <shape shape="circle" color="color3"></shape>
+            <code class="token punctuation">,</code>
+            <code class="token number">2</code>
+            <code class="token punctuation">}</code>
+          </div>
+          <code class="token punctuation">]</code>
         </div>
 
 
@@ -253,7 +289,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code><span class="token number">4</span></code>
@@ -278,7 +314,7 @@
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code><span class="token number">1</span></code>
@@ -307,7 +343,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -342,7 +378,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token string">"</code>
@@ -372,7 +408,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -400,7 +436,7 @@
           <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#sort/2">sort</a></em><span class="token punctuation">(</span><span class="token atom">:desc</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -430,7 +466,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <shape shape="square" color="color1" size="big"></shape>
@@ -453,7 +489,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <shape shape="square" color="color1" size="smaller"></shape>
@@ -474,7 +510,7 @@
           <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#empty?/1">empty?</a></em><span class="token punctuation">()</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code><span class="token atom">false</span></code>
@@ -497,7 +533,7 @@
           <code><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code><span class="token atom">true</span></code>
@@ -522,7 +558,7 @@
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code><span class="token atom">false</span></code>
@@ -547,7 +583,7 @@
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code><span class="token atom">true</span></code>
@@ -568,7 +604,7 @@
           <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#take/2">take</a></em><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -594,7 +630,7 @@
           <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#take_every/2">take_every</a></em><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -624,7 +660,7 @@
           <code>?<span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -651,7 +687,7 @@
           <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#drop/2">drop</a></em><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -677,7 +713,7 @@
           <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#drop_every/2">drop_every</a></em><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -707,7 +743,7 @@
           <code>?<span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -732,7 +768,7 @@
           <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#slice/2">slice</a></em><span class="token punctuation">(</span><span class="token number">2..3</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -758,7 +794,7 @@
           <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#split/2">split</a></em><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -793,7 +829,7 @@
             <span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number"> 3</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -835,7 +871,7 @@
           <code><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -871,7 +907,7 @@
           <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#chunk_every/4">chunk_every</a></em><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number"> 3</span><span class="token punctuation">,</span><span class="token atom"> :discard</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -901,7 +937,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -940,7 +976,7 @@
           <code><span class="token punctuation">)</span><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -980,7 +1016,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
             <span v-bind:key="shape[2]" v-for="(shape, index) in shuffle([['square', 'color2', 0], ['circle', 'color3', 1], ['square', 'color3', 2], ['square', 'color1', 3]])">
@@ -1007,7 +1043,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -1036,7 +1072,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -1065,7 +1101,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -1095,7 +1131,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -1126,7 +1162,7 @@
           <code><span class="token punctuation">)</span><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -1154,7 +1190,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -1182,7 +1218,7 @@
           <code><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -1218,7 +1254,7 @@
           <code><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -1255,7 +1291,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -1301,7 +1337,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">[</code>
@@ -1339,7 +1375,7 @@
           <code><span class="token punctuation">)</span><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <div class="lines">
@@ -1383,7 +1419,7 @@
           </code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <div class="lines">
@@ -1424,7 +1460,7 @@
           <code><span class="token punctuation">)</span><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
         </div>
         <div class="arrow" title="returns">
-          <span aria-label="returns">→</span>
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
         </div>
         <div class="output">
           <code class="token punctuation">%{</code>
@@ -1527,7 +1563,7 @@ html {
   }
 
   @media screen and (min-width: $breakpoint3) {
-    font-size: 22px;
+    font-size: 21px;
   }
 
   a {
