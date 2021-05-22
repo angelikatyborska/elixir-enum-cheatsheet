@@ -276,6 +276,52 @@
         <div class="input">
           <code class="token punctuation">[</code>
           <div class="list">
+            <span class="token number">1</span><code class="token punctuation">,</code>
+            <span class="token number">2</span><code class="token punctuation">,</code>
+            <span class="token number">3</span><code class="token punctuation">,</code>
+            <span class="token number">4</span>
+          </div>
+          <code class="token punctuation">]</code>
+        </div>
+        <div id="sum/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#sum/1">sum</a></em>
+            <span class="token punctuation">()</span>
+          </code>
+        </div>
+        <div class="arrow" title="returns">
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
+        </div>
+        <div class="output">
+          <code><span class="token number">10</span></code>
+        </div>
+
+
+        <div class="input">
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <span class="token number">1</span><code class="token punctuation">,</code>
+            <span class="token number">2</span><code class="token punctuation">,</code>
+            <span class="token number">3</span><code class="token punctuation">,</code>
+            <span class="token number">4</span>
+          </div>
+          <code class="token punctuation">]</code>
+        </div>
+        <div id="product/1" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#product/1">product</a></em>
+            <span class="token punctuation">()</span>
+          </code>
+        </div>
+        <div class="arrow" title="returns">
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
+        </div>
+        <div class="output">
+          <code><span class="token number">24</span></code>
+        </div>
+
+
+        <div class="input">
+          <code class="token punctuation">[</code>
+          <div class="list">
             <shape shape="square" color="color3"></shape><code class="token punctuation">,</code>
             <shape shape="square" color="color1"></shape><code class="token punctuation">,</code>
             <shape shape="square" color="color3"></shape><code class="token punctuation">,</code>
@@ -312,6 +358,65 @@
           <code class="token operator"> -> </code>
           <shape color="color1"></shape><code>?</code>
           <code><span class="token keyword"> end</span><span class="token punctuation">)</span></code>
+        </div>
+        <div class="arrow" title="returns">
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
+        </div>
+        <div class="output">
+          <code><span class="token number">1</span></code>
+        </div>
+
+
+        <div class="input">
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <shape shape="square" color="color3"></shape><code class="token punctuation">,</code>
+            <shape shape="square" color="color1"></shape><code class="token punctuation">,</code>
+            <shape shape="square" color="color3"></shape><code class="token punctuation">,</code>
+            <shape shape="square" color="color2"></shape>
+          </div>
+          <code class="token punctuation">]</code>
+        </div>
+        <div id="count_until/2" class="code">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#count_until/2">count_until</a></em>
+            <span class="token punctuation">(</span>
+            <span class="token number">3</span>
+            <span class="token punctuation">)</span>
+          </code>
+        </div>
+        <div class="arrow" title="returns">
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
+        </div>
+        <div class="output">
+          <code><span class="token number">3</span></code>
+        </div>
+
+
+        <div class="input">
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <shape shape="square" color="color3"></shape><code class="token punctuation">,</code>
+            <shape shape="square" color="color1"></shape><code class="token punctuation">,</code>
+            <shape shape="square" color="color3"></shape><code class="token punctuation">,</code>
+            <shape shape="square" color="color2"></shape>
+          </div>
+          <code class="token punctuation">]</code>
+        </div>
+        <div id="count_until/3" class="code">
+          <code>
+            <span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#count_until/3">count_until</a></em>
+            <span class="token punctuation">(</span>
+            <span class="token keyword">fn </span>
+          </code>
+          <shape></shape>
+          <code class="token operator"> -> </code>
+          <shape color="color1"></shape><code>?</code>
+          <code>
+            <span class="token keyword"> end</span>
+            <span class="token punctuation">,</span>
+            <span class="token number"> 3</span>
+            <span class="token punctuation">)</span>
+          </code>
         </div>
         <div class="arrow" title="returns">
           <span aria-hidden="true">→</span><span class="sr-only">returns</span>
@@ -1359,6 +1464,132 @@
 
         <div class="input">
           <code class="token punctuation">[</code>
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <shape shape="circle" color="color2"></shape><code class="token punctuation">,</code>
+            <shape shape="circle" color="color3"></shape>
+          </div>
+          <code class="token punctuation">],</code>
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <code class="token number">1</code><code class="token punctuation">,</code>
+            <code class="token number">2</code>
+          </div>
+          <code class="token punctuation">]</code>
+          <code class="token punctuation">]</code>
+        </div>
+        <div id="zip_with/2" class="code">
+          <code>
+            <span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#zip_with/2">zip_with</a></em>
+            <span class="token punctuation">(</span>
+            <span class="token keyword">fn </span>
+          </code>
+          <code class="token punctuation">[</code>
+          <shape></shape>
+          <code>
+            <span class="token punctuation">,</span>n<span class="token punctuation">]</span>
+           -> <span class="token punctuation">{</span>
+          </code>
+          <shape></shape>
+          <code>
+            <span class="token punctuation">,</span>n<span class="token operator">+</span><span class="token number">10</span><span class="token punctuation">}</span>
+            <span class="token keyword"> end</span><span class="token punctuation">)</span>
+          </code>
+        </div>
+        <div class="arrow" title="returns">
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
+        </div>
+        <div class="output">
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <code class="token punctuation">{</code>
+            <div class="list">
+              <shape shape="circle" color="color2"></shape><code class="token punctuation">,</code>
+              <code class="token number">11</code>
+            </div>
+            <code class="token punctuation">},</code>
+            <code class="token punctuation">{</code>
+            <div class="list">
+              <shape shape="circle" color="color3"></shape><code class="token punctuation">,</code>
+              <code class="token number">12</code>
+            </div>
+            <code class="token punctuation">}</code>
+          </div>
+          <code class="token punctuation">]</code>
+        </div>
+
+
+        <div class="input input-for-multiline-code">
+          <code class="token punctuation">[</code>
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <shape shape="circle" color="color2"></shape><code class="token punctuation">,</code>
+            <shape shape="circle" color="color3"></shape>
+          </div>
+          <code class="token punctuation">],</code>
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <code class="token number">1</code><code class="token punctuation">,</code>
+            <code class="token number">2</code>
+          </div>
+          <code class="token punctuation">]</code>
+          <code class="token punctuation">]</code>
+        </div>
+        <div id="zip_reduce/3" class="code">
+          <div class="lines">
+            <div class="line">
+              <code>
+                <span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#zip_reduce/3">zip_reduce</a></em>
+                <span class="token punctuation">([], </span>
+                <span class="token keyword">fn </span>
+                <span class="token punctuation">[</span>
+              </code>
+              <shape></shape>
+              <code>
+                <span class="token punctuation">,</span>n<span class="token punctuation">]</span><span class="token punctuation">,</span> acc
+                ->
+              </code>
+            </div>
+            <div class="line">
+              <code class="indentation"></code>
+              <code class="token punctuation">[{</code>
+              <shape></shape>
+              <code>
+                <span class="token punctuation">,</span>n<span class="token operator">+</span><span class="token number">10</span><span class="token punctuation">}</span><span class="token operator"> | </span>acc<span class="token punctuation">]</span>
+              </code>
+            </div>
+            <div class="line">
+              <code>
+                <span class="token keyword">end</span><span class="token punctuation">)</span>
+              </code>
+            </div>
+          </div>
+        </div>
+        <div class="arrow" title="returns">
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
+        </div>
+        <div class="output output-for-multiline-code">
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <code class="token punctuation">{</code>
+            <div class="list">
+              <shape shape="circle" color="color3"></shape><code class="token punctuation">,</code>
+              <code class="token number">12</code>
+            </div>
+            <code class="token punctuation">},</code>
+            <code class="token punctuation">{</code>
+            <div class="list">
+              <shape shape="circle" color="color2"></shape><code class="token punctuation">,</code>
+              <code class="token number">11</code>
+            </div>
+            <code class="token punctuation">}</code>
+          </div>
+          <code class="token punctuation">]</code>
+        </div>
+
+
+        <div class="input">
+          <code class="token punctuation">[</code>
           <div class="list">
             <shape shape="square" color="color3"></shape><code class="token punctuation">,</code>
             <shape shape="square" color="color1"></shape><code class="token punctuation">,</code>
@@ -1685,11 +1916,16 @@ code {
   border-bottom: 1px solid $wrapper-border-color;
 }
 
+.output-for-multiline-code, .input-for-multiline-code {
+  align-items: flex-start;
+}
+
 @media screen and (min-width: $breakpoint2) {
   .input, .code {
     padding-top: $margin-big;
     padding-bottom: $margin-medium;
   }
+
   .output, .arrow {
     padding-bottom: $margin-big;
     border-bottom: 1px solid $wrapper-border-color;
