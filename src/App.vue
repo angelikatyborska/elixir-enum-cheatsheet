@@ -1774,7 +1774,7 @@
 
     <footer>
       <p><a href="https://github.com/angelikatyborska/elixir-enum-cheatsheet/issues">Report a problem</a>.</p>
-      <p>Created by <a href="https://angelika.me">Angelika Tyborska</a>.</p>
+      <p>Created by <a href="https://angelika.me">Angelika Tyborska</a>. <a href="https://ko-fi.com/angelikatyborska">Buy me a coffee ☕️</a>.</p>
     </footer>
   </div>
 </template>
