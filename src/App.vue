@@ -295,6 +295,34 @@
           <code><span class="token number">10</span></code>
         </div>
 
+        <div id="sum_by/2" class="input">
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <span class="token number">1</span><code class="token punctuation">,</code>
+            <span class="token number">2</span><code class="token punctuation">,</code>
+            <span class="token number">3</span><code class="token punctuation">,</code>
+            <span class="token number">4</span>
+          </div>
+          <code class="token punctuation">]</code>
+        </div>
+        <div class="code sum_by/2">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#sum_by/2">sum_by</a></em>
+            <span class="token punctuation">(</span>
+            <span class="token keyword">fn </span>
+            <span>n -> n </span>
+            <span class="token punctuation">+ </span>
+            <span class="token number">1</span>
+            <span class="token keyword"> end</span>
+            <span class="token punctuation">)</span>
+          </code>
+        </div>
+        <div class="arrow" title="returns">
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
+        </div>
+        <div class="output">
+          <code><span class="token number">14</span></code>
+        </div>
+
 
         <div id="product/1" class="input">
           <code class="token punctuation">[</code>
@@ -316,6 +344,35 @@
         </div>
         <div class="output">
           <code><span class="token number">24</span></code>
+        </div>
+
+
+        <div id="product_by/2" class="input">
+          <code class="token punctuation">[</code>
+          <div class="list">
+            <span class="token number">1</span><code class="token punctuation">,</code>
+            <span class="token number">2</span><code class="token punctuation">,</code>
+            <span class="token number">3</span><code class="token punctuation">,</code>
+            <span class="token number">4</span>
+          </div>
+          <code class="token punctuation">]</code>
+        </div>
+        <div class="code product_by/2">
+          <code><span class="token operator">|> </span>Enum.<em><a href="https://hexdocs.pm/elixir/Enum.html#product_by/2">product_by</a></em>
+            <span class="token punctuation">(</span>
+            <span class="token keyword">fn </span>
+            <span>n -> n </span>
+            <span class="token punctuation">+ </span>
+            <span class="token number">1</span>
+            <span class="token keyword"> end</span>
+            <span class="token punctuation">)</span>
+          </code>
+        </div>
+        <div class="arrow" title="returns">
+          <span aria-hidden="true">→</span><span class="sr-only">returns</span>
+        </div>
+        <div class="output">
+          <code><span class="token number">120</span></code>
         </div>
 
 
